@@ -1,0 +1,8 @@
+/Users/krickert/IdeaProjects/newrag/chunker/src/main/java/com/krickert/search/chunker/ChunkerMain.java
+/Users/krickert/IdeaProjects/newrag/chunker/src/main/java/com/krickert/search/chunker/OverlapChunkController.java
+/Users/krickert/IdeaProjects/newrag/chunker/src/main/java/com/krickert/search/chunker/OverlapChunker.java
+/Users/krickert/IdeaProjects/newrag/chunker/src/main/java/com/krickert/search/chunker/StringRequestRecord.java
+/Users/krickert/IdeaProjects/newrag/chunker/src/main/java/com/krickert/search/chunker/TextRequestBody.java
+/Users/krickert/IdeaProjects/newrag/chunker/src/main/java/com/krickert/search/chunker/enhancers/Chunker.java
+/Users/krickert/IdeaProjects/newrag/chunker/src/main/java/com/krickert/search/chunker/enhancers/OverlapChunker.java
+/Users/krickert/IdeaProjects/newrag/chunker/src/main/java/com/krickert/search/chunker/grpc/ChunkerEndpoint.java
