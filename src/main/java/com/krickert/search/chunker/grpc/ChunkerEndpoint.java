@@ -62,6 +62,18 @@ public class ChunkerEndpoint extends ChunkServiceGrpc.ChunkServiceImplBase {
         return null;
     }
 
+    @Override
+    public void check(HealthCheckRequest request, StreamObserver<HealthCheckReply> responseObserver) {
+        HealthCheckReply reply = HealthCheckReply.newBuilder().setStatus("EmbeddingService is running").build();
+        sendReply(responseObserver, reply);
+    }
+
+    /**
+     * Sends the reply to the response observer.
+     *
+     * @param responseObserver The response observer to send the reply.
+     * @param reply The reply to be sent.
+     */
     private <T> void sendReply(StreamObserver<T> responseObserver, T reply) {
         responseObserver.onNext(reply);
         responseObserver.onCompleted();
