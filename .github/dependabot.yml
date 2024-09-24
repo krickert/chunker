@@ -9,7 +9,7 @@ updates:
 
 registries:
   github-packages:
-    type: maven
+    type: maven-repository
     url: https://maven.pkg.github.com/krickert/rag-models
-    username: krickert # Your GitHub username
-    password: ${{secrets.GH_TOKEN}} # The secret configured above
+    username: krickert
+    password: ${{secrets.GH_TOKEN}}
