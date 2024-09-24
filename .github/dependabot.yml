@@ -16,4 +16,3 @@ registries:
     url: https://maven.pkg.github.com/krickert/rag-models
     username: krickert
     password: ${{secrets.GH_PAT}}
-
